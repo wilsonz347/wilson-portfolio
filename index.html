@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wilson Zheng - Portfolio</title>
+    <link rel="stylesheet" href="../css/portfolio.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <meta name="description" content="Wilson Zheng's Professional Portfolio - Data Science Student and Aspiring Data Engineer">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="nav-container">
+                <a href="#" class="logo">WZ</a>
+                <ul class="nav-links">
+                    <li><a href="#home" class="nav-item" data-section="home">Home</a></li>
+                    <li><a href="#about" class="nav-item" data-section="about">About</a></li>
+                    <li><a href="#skills" class="nav-item" data-section="skills">Skills</a></li>
+                    <li><a href="#projects" class="nav-item" data-section="projects">Projects</a></li>
+                    <li><a href="#contact" class="nav-item" data-section="contact">Contact</a></li>
+                </ul>
+                <div class="burger">
+                    <div class="line1"></div>
+                    <div class="line2"></div>
+                    <div class="line3"></div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="section">
+            <div class="container">
+                <div class="hero">
+                    <h1 class="glitch" data-text="Wilson Zheng">Wilson Zheng</h1>
+                    <h2>Data Science Student | Aspiring Data Engineer</h2>
+                    <p>Bridging Statistical Analysis and Real-World Solutions</p>
+                    <a href="../../static/resume/resume.pdf" download="Wilson_Zheng_Resume.pdf" class="cta-button">Download Resume</a>
+                </div>
+            </div>
+            <div class="scroll-indicator">
+                <div class="mouse"></div>
+            </div>
+        </section>
+
+        <section id="about" class="section">
+            <div class="container">
+                <h2 class="section-title">About Me</h2>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p>I grew up in early 2000s New York City, in a vibrant neighborhood predominantly Asian and Dominican. Now in Boston, I'm pursuing Data Science at Boston University.
+                            <br><br>Outside of academics, I enjoy playing basketball, watching crime documentaries, lifting weights, and diving into hackathons to build and innovate.</p>
+                    </div>
+                    <div class="about-image">
+                        <img src="../images/profile.png" alt="Wilson" class="profile-image">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="section">
+            <div class="container">
+                <h2 class="section-title">My Skills</h2>
+                <div class="skills-container">
+                    <div class="skill-category">
+                        <h3>Languages</h3>
+                        <div class="skills-grid">
+                            <div class="skill-item" data-skill="Python">
+                                <i class="fab fa-python"></i>
+                                <span>Python</span>
+                                <div class="skill-level" style="width: 60%;"></div>
+                            </div>
+                            <div class="skill-item" data-skill="HTML">
+                                <i class="fab fa-html5"></i>
+                                <span>HTML</span>
+                                <div class="skill-level" style="width: 80%;"></div>
+                            </div>
+                            <div class="skill-item" data-skill="CSS">
+                                <i class="fab fa-css3-alt"></i>
+                                <span>CSS</span>
+                                <div class="skill-level" style="width: 40%;"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h3>Framework & Libraries</h3>
+                        <div class="skills-grid">
+                            <div class="skill-item" data-skill="Flask">
+                                <i class="fas fa-flask"></i>
+                                <span>Flask</span>
+                                <div class="skill-level" style="width: 40%;"></div>
+                            </div>
+                            <div class="skill-item" data-skill="Streamlit">
+                                <i class="fas fa-stream"></i>
+                                <span>Streamlit</span>
+                                <div class="skill-level" style="width: 50%;"></div>
+                            </div>
+                            <div class="skill-item" data-skill="Scikit-Learn">
+                                <i class="fas fa-brain"></i>
+                                <span>Scikit-Learn</span>
+                                <div class="skill-level" style="width: 70%;"></div>
+                            </div>
+                            <div class="skill-item" data-skill="Pandas">
+                                <i class="fas fa-chart-bar"></i>
+                                <span>Pandas</span>
+                                <div class="skill-level" style="width: 75%;"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h3>Tools & Others</h3>
+                        <div class="skills-grid">
+                            <div class="skill-item" data-skill="Excel">
+                                <i class="fa-solid fa-file-excel"></i>
+                                <span>Excel</span>
+                                <div class="skill-level" style="width: 60%;"></div>
+                            </div>
+                            <div class="skill-item" data-skill="Git">
+                                <i class="fab fa-github"></i>
+                                <span>Git</span>
+                                <div class="skill-level" style="width: 70%;"></div>
+                            </div>
+                            <div class="skill-item" data-skill="PyCharm">
+                                <i class="fas fa-robot"></i>
+                                <span>ML</span>
+                                <div class="skill-level" style="width: 90%;"></div>
+                            </div>
+                            <div class="skill-item" data-skill="Perplexity">
+                                <i class="fas fa-brain"></i>
+                                <span>AI</span>
+                                <div class="skill-level" style="width: 90%;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="projects" class="section">
+            <div class="container">
+                <h2 class="section-title">My Projects</h2>
+                <div class="project-filters">
+                    <button class="filter-btn active" data-filter="all">All</button>
+                    <button class="filter-btn" data-filter="data-science">Data Science</button>
+                    <button class="filter-btn" data-filter="web-dev">Web Development</button>
+                </div>
+                <div class="projects-grid">
+                    <div class="project-card" data-category="data-science">
+                        <div class="project-card__images">
+                            <div class="project-card__image-wrapper">
+                                <img src="../images/calorietrack-thumbnail.png?height=200&width=300" alt="CalorieTrack">
+                            </div>
+                        </div>
+                        <div class="project-card__content">
+                            <div class="project-card__tags">
+                                <span class="tag">Python</span>
+                                <span class="tag">ML</span>
+                                <span class="tag">Streamlit</span>
+                                <span class="tag">Scikit-Learn</span>
+                            </div>
+                            <h3 class="project-card__title">CalorieTrack</h3>
+                            <p class="project-card__description">CalorieTrack is a web application built with Python and Streamlit that uses machine learning to predict the number of calories burned during a workout based on user input.</p>
+                            <div class="project-card__links">
+                                <a href="https://github.com/wilsonz347/CalorieTrack" class="project-link" target="_blank">
+                                    <i class="fab fa-github"></i>
+                                    View Project
+                                </a>
+                                <button class="project-details-btn">
+                                    <i class="fas fa-info-circle"></i>
+                                    Learn More
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-card" data-category="data-science">
+                        <div class="project-card__images">
+                            <div class="project-card__image-wrapper">
+                                <img src="../images/Pagepal.png?height=200&width=300" alt="CalorieTrack">
+                            </div>
+                        </div>
+                        <div class="project-card__content">
+                            <div class="project-card__tags">
+                                <span class="tag">Python</span>
+                                <span class="tag">ML</span>
+                                <span class="tag">Streamlit</span>
+                                <span class="tag">Scikit-Learn</span>
+                            </div>
+                            <h3 class="project-card__title">PagePal</h3>
+                            <p class="project-card__description">PagePal is a Python-based book recommendation system that utilizes Pandas and Scikit-learn libraries to analyze a dataset of books and provide personalized recommendations through the K-Nearest Neighbors (KNN) algorithm.</p>
+                            <div class="project-card__links">
+                                <a href="https://github.com/wilsonz347/PagePal" class="project-link" target="_blank">
+                                    <i class="fab fa-github"></i>
+                                    View Project
+                                </a>
+                                <button class="project-details-btn">
+                                    <i class="fas fa-info-circle"></i>
+                                    Learn More
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section">
+            <div class="container">
+                <h2 class="section-title">Get in Touch</h2>
+                <div class="contact-content">
+                    <form id="contact-form" class="contact-form">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder=" " required>
+                            <label for="name">Name</label>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder=" " required>
+                            <label for="email">Email</label>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" placeholder=" " required></textarea>
+                            <label for="message">Message</label>
+                        </div>
+                        <button type="submit" class="submit-btn">Send Message</button>
+                    </form>
+                    <div class="contact-info">
+                        <h3>Connect with me</h3>
+                        <p>Feel free to reach out through any of these platforms. I'm always excited to discuss new opportunities and collaborations!</p>
+                        <div class="social-links">
+                            <a href="https://www.instagram.com/wilsonz_394/" target="_blank"><i class="fab fa-instagram"></i></a>
+                            <a href="https://www.linkedin.com/in/wilsonfzheng/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                            <a href="https://github.com/wilsonz347" target="_blank"><i class="fab fa-github"></i></a>
+                            <a href="mailto:wilsonfzheng@gmail.com"><i class="fas fa-envelope"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Wilson Zheng. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="../js/portfolio.js"></script>
+
+</body>
+</html>
+
