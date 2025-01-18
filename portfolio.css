@@ -343,6 +343,7 @@ header {
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
 }
 
+
 /* Skills Section */
 .skills-container {
     display: flex;
@@ -389,15 +390,6 @@ header {
     font-size: 2.5rem;
     color: var(--primary-color);
     margin-bottom: 0.5rem;
-}
-
-.skill-level {
-    height: 5px;
-    background-color: var(--accent-color);
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    transition: width 1s ease-in-out;
 }
 
 
