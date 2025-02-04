@@ -313,37 +313,6 @@ header {
     }
 }
 
-/* About Section */
-.about-content {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.about-text {
-    flex: 1;
-    padding-right: 2rem;
-}
-
-.about-image {
-    flex: 1;
-    position: relative;
-}
-
-.profile-image {
-    width: 400px;
-    height: auto;
-    border-radius: 10px;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-    transition: all 0.3s ease;
-}
-
-.profile-image:hover {
-    transform: scale(1.05);
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
-}
-
-
 /* Skills Section */
 .skills-container {
     display: flex;
@@ -781,11 +750,11 @@ footer p {
         transform: translateX(0%);
     }
 
-    .about-content, .contact-content {
+    .contact-content {
         flex-direction: column;
     }
 
-    .about-text, .about-image, .contact-form, .contact-info {
+    .contact-form, .contact-info {
         width: 100%;
         margin-right: 0;
         margin-bottom: 2rem;
